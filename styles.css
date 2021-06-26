@@ -3,6 +3,10 @@
     font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
 }
+a:hover{
+  color: #fff;
+  opacity: 1;
+}
 body{
     background: #000;
 }
@@ -20,6 +24,13 @@ header{
 .enlalo{
     text-decoration: none;
 }
+.menu{
+    display: none;
+    color: #fff;
+}
+.fas{
+    display: none;
+}
 header ul{
     display: flex;
     margin-top: 50px;
@@ -30,6 +41,7 @@ header ul a{
     text-decoration: none;
     color: #fff;
     display: flex;
+    opacity: 0.8;
 }
 header ul a li{
     list-style: none;
@@ -94,7 +106,7 @@ li{
 .producto{
     margin-top: 20px;
 }
-@media screen and (max-width:361px) {
+@media screen and (max-width:456px) {
     .col{
         background: transparent;
         margin-left: 20px;
@@ -106,5 +118,47 @@ li{
         align-items: center;
         /* justify-content: center; */
     }
-    
+    .eliminarenmedia{
+        display: none;
+    }
+    .logo{
+        margin-top: 50px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-left: 20px;
+    }
+    /* .enlalo{
+        margin-top: 150px;
+    } */
+    .row{
+        margin: 0;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .menu{
+        display: ruby;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .fas{
+        color: #fff;
+        display: ruby;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+   .desplegar{
+       display: flex;
+       flex-direction: row;
+       justify-content: right;
+       align-items: center;
+       align-items: center;
+       margin-top: 30px;
+       cursor: pointer;
+       margin-right: 10px;
+   }
 }
