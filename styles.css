@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+header{
+    width: 100%;
+    background: transparent;
+    height: 50px;
+}
+.logo{
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.enlalo{
+    text-decoration: none;
+}
+header ul{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+header ul a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+}
+header ul a li{
+    list-style: none;
+    margin-right: 30px;
+}
+/* PRODUCTOS */
+main{
+    width: 100%;
+    margin: 0;
+}
+.row{
+    margin-top: 100px;
+    padding: 20px;
+    width: 100%;
+}
+.col{
+    background: transparent;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: #fff;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.otg{
+    width: 90px;
+}
+a{
+    text-decoration: none;
+     color: #000;
+}
+li{
+    list-style: none;
+}
+.top{
+   margin-top: 10px;
+}
+.ahora{
+    margin-top: 20px;
+}
+.item{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+}
+.item:hover{
+    transition-duration: 0.5s;
+    background: #000;
+    color: #fff;
+    transform: scale(1.05, 1.05);
+}
+.carga{
+    height: 70px;
+}
+.producto{
+    margin-top: 20px;
+}
+@media screen and (max-width:361px) {
+    .col{
+        background: transparent;
+        margin-left: 20px;
+        margin-top: 50px;
+        background: #fff;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    
+}
