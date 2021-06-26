@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+a:hover{
+  color: #fff;
+  opacity: 1;
+}
+body{
+    background: #000;
+}
+header{
+    width: 100%;
+    background: transparent;
+    height: 50px;
+}
+.logo{
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.enlalo{
+    text-decoration: none;
+}
+.menu{
+    display: none;
+    color: #fff;
+}
+.fas{
+    display: none;
+}
+header ul{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+header ul a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    opacity: 0.8;
+}
+header ul a li{
+    list-style: none;
+    margin-right: 30px;
+}
+@media screen and (max-width:456px) {
+    .col{
+        background: transparent;
+        margin-left: 20px;
+        margin-top: 50px;
+        background: #fff;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .eliminarenmedia{
+        display: none;
+    }
+    .logo{
+        margin-top: 50px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-left: 20px;
+    }
+    /* .enlalo{
+        margin-top: 150px;
+    } */
+    .row{
+        margin: 0;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .menu{
+        display: ruby;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .fas{
+        color: #fff;
+        display: ruby;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+   .desplegar{
+       display: flex;
+       flex-direction: row;
+       justify-content: right;
+       align-items: center;
+       align-items: center;
+       margin-top: 30px;
+       cursor: pointer;
+       margin-right: 10px;
+   }
+}
